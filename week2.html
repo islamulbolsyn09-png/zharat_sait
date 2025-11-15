@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8">
+  <title>2-апта: Жаратылыстану ғылымдарының пәнаралық байланысы</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+
+<header class="bg-blue-800 text-white p-6">
+  <h1 class="text-2xl font-bold">2-апта: Жаратылыстану ғылымдарының пәнаралық байланысы</h1>
+  <a href="index.html" class="text-yellow-300 hover:underline mt-2 inline-block">← Басты бетке оралу</a>
+</header>
+
+<main class="p-6 max-w-4xl mx-auto">
+
+  <!-- Дәріс мазмұны -->
+  <section class="bg-white p-6 rounded shadow mb-6">
+    <h2 class="text-xl font-semibold mb-4">Дәріс мазмұны</h2>
+    <ul class="list-disc list-inside space-y-2">
+      <li>Физика, химия, биология, география, астрономия сияқты ғылымдардың өзара байланысы</li>
+      <li>Табиғатты тұтас жүйе ретінде зерттеу</li>
+      <li>Энергияның сақталу заңы, гравитация, Кулон заңы сияқты әмбебап заңдардың рөлі</li>
+      <li>Пәнаралық байланыстың болашақ мұғалімдерді даярлаудағы маңызы</li>
+    </ul>
+  </section>
+
+  <!-- Файлдар -->
+  <section class="bg-white p-6 rounded shadow mb-6">
+    <h2 class="text-xl font-semibold mb-4">Қосымша материалдар</h2>
+    <div class="space-y-3">
+      <a href="materials/week2_presentation.pptx" download class="block bg-blue-600 text-white text-center py-2 px-4 rounded hover:bg-blue-700 transition">
+        📥 Презентацияны жүктеп алу (.pptx)
+      </a>
+      <a href="materials/week2_notes.docx" download class="block bg-green-600 text-white text-center py-2 px-4 rounded hover:bg-green-700 transition">
+        📥 Дәріс мәтінін жүктеп алу (.docx)
+      </a>
+    </div>
+    <p class="text-sm text-gray-600 mt-3">* Файлдар <code>materials/</code> бумасында болуы керек.</p>
+  </section>
+
+  <!-- Өздік жұмыс: 15 сұрақ -->
+  <section class="bg-white p-6 rounded shadow">
+    <h2 class="text-xl font-semibold mb-4">Өздік жұмыс: 15 сұрақ</h2>
+    <form id="quizForm" class="space-y-5">
+      
+      <div><p class="font-medium">1. Жаратылыстану ғылымдарының пәнаралық байланысы нені білдіреді?</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q1" value="0"> Бір ғылымның басқасынан бөлек дамуы</label>
+          <label class="flex items-center"><input type="radio" name="q1" value="1"> Ғылымдардың өзара әрекеттесуі мен бір-бірін толықтыруы</label>
+          <label class="flex items-center"><input type="radio" name="q1" value="0"> Тек биология мен химияның байланысы</label>
+          <label class="flex items-center"><input type="radio" name="q1" value="0"> Табиғатты сипаттауға бағытталған жеке тәсілдер</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">2. Энергияның сақталу заңы қай ғылымдарды біріктіреді?</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q2" value="0"> Тек физика мен химия</label>
+          <label class="flex items-center"><input type="radio" name="q2" value="0"> Тек биология</label>
+          <label class="flex items-center"><input type="radio" name="q2" value="1"> Барлық жаратылыстану ғылымдары</label>
+          <label class="flex items-center"><input type="radio" name="q2" value="0"> Астрономия мен геология</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">3. Фотосинтез қай заңның мысалы болып табылады?</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q3" value="0"> Массаның сақталу заңы</label>
+          <label class="flex items-center"><input type="radio" name="q3" value="1"> Энергияның сақталу және айналу заңы</label>
+          <label class="flex items-center"><input type="radio" name="q3" value="0"> Ньютонның бірінші заңы</label>
+          <label class="flex items-center"><input type="radio" name="q3" value="0"> Архимед заңы</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">4. Кулон заңы қай процестерге қатысты?</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q4" value="0"> Жылу берілу</label>
+          <label class="flex items-center"><input type="radio" name="q4" value="1"> Электр зарядтарының өзара әсерлесуі</label>
+          <label class="flex items-center"><input type="radio" name="q4" value="0"> Газдың қысымы</label>
+          <label class="flex items-center"><input type="radio" name="q4" value="0"> Механикалық қозғалыс</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">5. Биологияның қай саласы жасушаларды зерттейді?</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q5" value="0"> Ботаника</label>
+          <label class="flex items-center"><input type="radio" name="q5" value="0"> Зоология</label>
+          <label class="flex items-center"><input type="radio" name="q5" value="1"> Цитология</label>
+          <label class="flex items-center"><input type="radio" name="q5" value="0"> Генетика</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">6. География мен биологияның байланысы қай салада көрінеді?</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q6" value="0"> Астрономия</label>
+          <label class="flex items-center"><input type="radio" name="q6" value="0"> Минералогия</label>
+          <label class="flex items-center"><input type="radio" name="q6" value="1"> Биогеография</label>
+          <label class="flex items-center"><input type="radio" name="q6" value="0"> Физикалық химия</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">7. Астрономияның қай саласы аспан денелерінің химиялық құрамын зерттейді?</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q7" value="0"> Астрофизика</label>
+          <label class="flex items-center"><input type="radio" name="q7" value="1"> Астрохимия</label>
+          <label class="flex items-center"><input type="radio" name="q7" value="0"> Космология</label>
+          <label class="flex items-center"><input type="radio" name="q7" value="0"> Планетология</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">8. Температура қай биологиялық процесске әсер етеді?</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q8" value="0"> ДНҚ-ның редупликациясы</label>
+          <label class="flex items-center"><input type="radio" name="q8" value="1"> Зат алмасу жылдамдығы</label>
+          <label class="flex items-center"><input type="radio" name="q8" value="0"> Генетикалық мутация</label>
+          <label class="flex items-center"><input type="radio" name="q8" value="0"> Тұқымның өнуі</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">9. Химия мен биологияның байланысы неде көрінеді?</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q9" value="0"> Аспан денелерінің қозғалысында</label>
+          <label class="flex items-center"><input type="radio" name="q9" value="1"> Тірі организмдердегі химиялық реакцияларда</label>
+          <label class="flex items-center"><input type="radio" name="q9" value="0"> Жер сілкінісін болжауда</label>
+          <label class="flex items-center"><input type="radio" name="q9" value="0"> Электр тогын өткізуде</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">10. Пәнаралық байланыстың мұғалімдерді даярлаудағы рөлі қандай?</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q10" value="0"> Тек бір пәнді терең меңгеру</label>
+          <label class="flex items-center"><input type="radio" name="q10" value="1"> Комплексті мәселелерді шешу қабілетін дамыту</label>
+          <label class="flex items-center"><input type="radio" name="q10" value="0"> Тәжірибелік дағдыларды азайту</label>
+          <label class="flex items-center"><input type="radio" name="q10" value="0"> Тек теориялық білім беру</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">11. Экология қай факторларды зерттейді?</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q11" value="0"> Тек химиялық</label>
+          <label class="flex items-center"><input type="radio" name="q11" value="0"> Тек физикалық</label>
+          <label class="flex items-center"><input type="radio" name="q11" value="0"> Тек биологиялық</label>
+          <label class="flex items-center"><input type="radio" name="q11" value="1"> Биологиялық, физикалық және химиялық</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">12. Жаратылыстану ғылымдарын қандай екі топқа бөлуге болады?</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q12" value="1"> Сипаттаушы және дәл (формальді)</label>
+          <label class="flex items-center"><input type="radio" name="q12" value="0"> Негізгі және қосымша</label>
+          <label class="flex items-center"><input type="radio" name="q12" value="0"> Теориялық және тәжірибелік</label>
+          <label class="flex items-center"><input type="radio" name="q12" value="0"> Фундаменталды және инженерлік</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">13. Ньютон заңдары қай деңгейде қолданылады?</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q13" value="0"> Тек планеталар қозғалысында</label>
+          <label class="flex items-center"><input type="radio" name="q13" value="1"> Атомнан галактикаға дейін</label>
+          <label class="flex items-center"><input type="radio" name="q13" value="0"> Тек инженерияда</label>
+          <label class="flex items-center"><input type="radio" name="q13" value="0"> Тек механикада</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">14. Функционалдық сауаттылық нені білдіреді?</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q14" value="0"> Тек формула жаттау</label>
+          <label class="flex items-center"><input type="radio" name="q14" value="1"> Өмірлік міндеттерді шешу қабілеті</label>
+          <label class="flex items-center"><input type="radio" name="q14" value="0"> Тестіде жоғары ұпай жинау</label>
+          <label class="flex items-center"><input type="radio" name="q14" value="0"> Ғылыми мақалалар жазу</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">15. Пәнаралық байланыс арқылы қандай экологиялық мәселелерді түсіндіруге болады?</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q15" value="0"> Тек ластану</label>
+          <label class="flex items-center"><input type="radio" name="q15" value="0"> Тек климат</label>
+          <label class="flex items-center"><input type="radio" name="q15" value="0"> Тек биоәртүрлілік</label>
+          <label class="flex items-center"><input type="radio" name="q15" value="1"> Барлық экологиялық мәселелер</label>
+        </div>
+      </div>
+
+      <button type="button" onclick="checkQuiz()" class="mt-4 bg-blue-800 text-white px-6 py-3 rounded hover:bg-blue-900 font-semibold w-full">
+        Тесті тексеру
+      </button>
+    </form>
+    <p id="quizResult" class="mt-4 font-semibold text-center text-lg"></p>
+  </section>
+
+</main>
+
+<script>
+function checkQuiz() {
+  let score = 0;
+  const total = 15;
+  const correctAnswers = {
+    q1: "1", q2: "1", q3: "1", q4: "1", q5: "1",
+    q6: "1", q7: "1", q8: "1", q9: "1", q10: "1",
+    q11: "1", q12: "1", q13: "1", q14: "1", q15: "1"
+  };
+
+  for (let i = 1; i <= total; i++) {
+    const selected = document.querySelector(`input[name="q${i}"]:checked`);
+    if (selected && selected.value === correctAnswers[`q${i}`]) {
+      score++;
+    }
+  }
+
+  const percentage = (score / total) * 100;
+  let msg = `Сіз ${score} / ${total} сұраққа дұрыс жауап бердіңіз (${percentage.toFixed(1)}%)`;
+
+  if (percentage >= 80) msg += " — Өте жақсы! 🎉";
+  else if (percentage >= 60) msg += " — Жақсы! 👍";
+  else if (percentage >= 40) msg += " — Орташа. Қайталаңыз. 📚";
+  else msg += " — Төмен. Дәрісті қайта оқыңыз. 📖";
+
+  document.getElementById("quizResult").innerText = msg;
+}
+</script>
+
+</body>
+</html>

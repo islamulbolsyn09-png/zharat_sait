@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8">
+  <title>14-апта: Әлемнің қазіргі заманғы жаратылыстану бейнесі</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+
+<header class="bg-blue-800 text-white p-6">
+  <h1 class="text-2xl font-bold">14-апта: Әлемнің қазіргі заманғы жаратылыстану бейнесі</h1>
+  <a href="index.html" class="text-yellow-300 hover:underline mt-2 inline-block">← Басты бетке оралу</a>
+</header>
+
+<main class="p-6 max-w-4xl mx-auto">
+
+  <!-- Дәріс мазмұны -->
+  <section class="bg-white p-6 rounded shadow mb-6">
+    <h2 class="text-xl font-semibold mb-4">Дәріс мазмұны</h2>
+    <ul class="list-disc list-inside space-y-2">
+      <li>Қазіргі жаратылыстану бейнесі — кванттық механика, салыстырмалылық теориясы, синергетика, экология және космология негізінде қалыптасқан кешенді көзқарас</li>
+      <li>Әлемнің біртұтастығы: зат пен өріс, материя мен энергия, кеңістік пен уақыт өзара байланысты</li>
+      <li>Детерминизм мен ықтималдықтың үйлесімі: классикалық заңдылықтар мен кванттық ықтималдық</li>
+      <li>Эволюциялық көзқарас: Әлем динамикалық, үздіксіз өзгеріп отыратын жүйе</li>
+      <li>Адамның рөлі: Әлемнің бөлігі ретінде ғана емес, оның танып білуші субъектісі ретінде</li>
+    </ul>
+  </section>
+
+  <!-- Файлдар -->
+  <section class="bg-white p-6 rounded shadow mb-6">
+    <h2 class="text-xl font-semibold mb-4">Қосымша материалдар</h2>
+    <div class="space-y-3">
+      <a href="materials/week14_presentation.pptx" download class="block bg-blue-600 text-white text-center py-2 px-4 rounded hover:bg-blue-700 transition">
+        📥 Презентацияны жүктеп алу (.pptx)
+      </a>
+      <a href="materials/week14_notes.docx" download class="block bg-green-600 text-white text-center py-2 px-4 rounded hover:bg-green-700 transition">
+        📥 Дәріс мәтінін жүктеп алу (.docx)
+      </a>
+    </div>
+    <p class="text-sm text-gray-600 mt-3">* Файлдар <code>materials/</code> бумасында болуы керек.</p>
+  </section>
+
+  <!-- Өздік жұмыс: 15 сұрақ -->
+  <section class="bg-white p-6 rounded shadow">
+    <h2 class="text-xl font-semibold mb-4">Өздік жұмыс: 15 сұрақ</h2>
+    <form id="quizForm" class="space-y-5">
+      
+      <div><p class="font-medium">1. Әлемнің қазіргі заманғы жаратылыстану бейнесі неден тұрады?</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q1" value="0"> Тек классикалық физикадан</label>
+          <label class="flex items-center"><input type="radio" name="q1" value="1"> Кванттық механика, салыстырмалылық, экология, космология, синергетиканың бірлігінен</label>
+          <label class="flex items-center"><input type="radio" name="q1" value="0"> Тек биологиядан</label>
+          <label class="flex items-center"><input type="radio" name="q1" value="0"> Тек философиядан</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">2. Әлемнің біртұтастығы дегеніміз не?</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q2" value="0"> Барлық нәрсе бір жерде орналасқаны</label>
+          <label class="flex items-center"><input type="radio" name="q2" value="1"> Зат пен өріс, материя мен энергия, кеңістік пен уақыттың өзара байланысы</label>
+          <label class="flex items-center"><input type="radio" name="q2" value="0"> Тек адамдар бірлесіп жұмыс істеуі</label>
+          <label class="flex items-center"><input type="radio" name="q2" value="0"> Тек химиялық элементтердің бірлігі</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">3. Детерминизм мен ықтималдықтың үйлесімі қай ғылымда көрінеді?</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q3" value="0"> Тек классикалық механикада</label>
+          <label class="flex items-center"><input type="radio" name="q3" value="1"> Кванттық механика мен классикалық физиканың бірлігінде</label>
+          <label class="flex items-center"><input type="radio" name="q3" value="0"> Тек биологияда</label>
+          <label class="flex items-center"><input type="radio" name="q3" value="0"> Тек математикада</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">4. Әлем қандай жүйе ретінде қарастырылады?</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q4" value="0"> Статикалық</label>
+          <label class="flex items-center"><input type="radio" name="q4" value="1"> Динамикалық, үздіксіз өзгеріп отыратын</label>
+          <label class="flex items-center"><input type="radio" name="q4" value="0"> Тек механикалық</label>
+          <label class="flex items-center"><input type="radio" name="q4" value="0"> Тек термиялық</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">5. Адам Әлемге қандай рөл атқарады?</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q5" value="0"> Тек көрінбейтін бөлік</label>
+          <label class="flex items-center"><input type="radio" name="q5" value="1"> Танып білуші субъект және бөлік</label>
+          <label class="flex items-center"><input type="radio" name="q5" value="0"> Тек пайдаланушы</label>
+          <label class="flex items-center"><input type="radio" name="q5" value="0"> Тек бақылаушы</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">6. Кванттық механиканың негізгі ерекшелігі:</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q6" value="0"> Абсолютті дәлдік</label>
+          <label class="flex items-center"><input type="radio" name="q6" value="1"> Ықтималдық сипаты мен суперпозиция</label>
+          <label class="flex items-center"><input type="radio" name="q6" value="0"> Тек макрообъектілерді зерттеу</label>
+          <label class="flex items-center"><input type="radio" name="q6" value="0"> Тек тұрақты күйлер</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">7. Салыстырмалылық теориясы не туралы?</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q7" value="0"> Электрондардың қозғалысы туралы</label>
+          <label class="flex items-center"><input type="radio" name="q7" value="1"> Кеңістік пен уақыттың біртұтастығы және иілуі туралы</label>
+          <label class="flex items-center"><input type="radio" name="q7" value="0"> Химиялық реакциялар туралы</label>
+          <label class="flex items-center"><input type="radio" name="q7" value="0"> Тіршіліктің пайда болуы туралы</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">8. Синергетика нені зерттейді?</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q8" value="0"> Тек энергияның сақталуын</label>
+          <label class="flex items-center"><input type="radio" name="q8" value="1"> Күрделі жүйелердің өздігінен ұйымдасуын</label>
+          <label class="flex items-center"><input type="radio" name="q8" value="0"> Тек жабық жүйелерді</label>
+          <label class="flex items-center"><input type="radio" name="q8" value="0"> Тек классикалық механиканы</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">9. Экологияның қазіргі заманғы рөлі:</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q9" value="0"> Тек табиғатты қорғау</label>
+          <label class="flex items-center"><input type="radio" name="q9" value="1"> Адам мен табиғаттың үйлесімді қатынасын қамтамасыз ету</label>
+          <label class="flex items-center"><input type="radio" name="q9" value="0"> Тек ластануды өлшеу</label>
+          <label class="flex items-center"><input type="radio" name="q9" value="0"> Тек мониторинг жасау</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">10. Ғаламның эволюциясы қай теорияға негізделген?</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q10" value="0"> Тұрақты күй теориясына</label>
+          <label class="flex items-center"><input type="radio" name="q10" value="1"> Үлкен жарылыс теориясына</label>
+          <label class="flex items-center"><input type="radio" name="q10" value="0"> Панспермия теориясына</label>
+          <label class="flex items-center"><input type="radio" name="q10" value="0"> Креационизмге</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">11. Материя мен энергияның байланысын көрсететін формула:</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q11" value="1"> E = mc²</label>
+          <label class="flex items-center"><input type="radio" name="q11" value="0"> F = ma</label>
+          <label class="flex items-center"><input type="radio" name="q11" value="0"> PV = nRT</label>
+          <label class="flex items-center"><input type="radio" name="q11" value="0"> H₂O</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">12. Қара материя не үшін қажет?</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q12" value="0"> Жарық шығару үшін</label>
+          <label class="flex items-center"><input type="radio" name="q12" value="1"> Галактикалардың құлдырамауы үшін гравитация көзі ретінде</label>
+          <label class="flex items-center"><input type="radio" name="q12" value="0"> Температураны реттеу үшін</label>
+          <label class="flex items-center"><input type="radio" name="q12" value="0"> Адамға көріну үшін</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">13. Фракталдар нені көрсетеді?</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q13" value="0"> Тек кездейсоқтықты</label>
+          <label class="flex items-center"><input type="radio" name="q13" value="1"> Күрделі жүйелердегі өзін-өзі қайталайтын құрылымды</label>
+          <label class="flex items-center"><input type="radio" name="q13" value="0"> Тек геометриялық фигураларды</label>
+          <label class="flex items-center"><input type="radio" name="q13" value="0"> Тек математикалық абстракцияны</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">14. Әлемнің жаратылыстану бейнесінің философиялық маңызы:</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q14" value="0"> Тек техникалық модель</label>
+          <label class="flex items-center"><input type="radio" name="q14" value="1"> Адамның Әлемдегі орнын түсіну</label>
+          <label class="flex items-center"><input type="radio" name="q14" value="0"> Тек формула жинағы</label>
+          <label class="flex items-center"><input type="radio" name="q14" value="0"> Тек эксперимент нәтижесі</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">15. «Біз – жұлдыздық заттардан тұрамыз» деген тұжырым нені білдіреді?</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q15" value="0"> Адам денесінде жұлдыздар бар</label>
+          <label class="flex items-center"><input type="radio" name="q15" value="1"> Біздің денемізде жұлдыздарда түзілген элементтер бар</label>
+          <label class="flex items-center"><input type="radio" name="q15" value="0"> Адамдар ғарыштан келген</label>
+          <label class="flex items-center"><input type="radio" name="q15" value="0"> Жұлдыздар тіршілік тудырды</label>
+        </div>
+      </div>
+
+      <button type="button" onclick="checkQuiz()" class="mt-4 bg-blue-800 text-white px-6 py-3 rounded hover:bg-blue-900 font-semibold w-full">
+        Тесті тексеру
+      </button>
+    </form>
+    <p id="quizResult" class="mt-4 font-semibold text-center text-lg"></p>
+  </section>
+
+</main>
+
+<script>
+function checkQuiz() {
+  let score = 0;
+  const total = 15;
+  const correctAnswers = {
+    q1: "1", q2: "1", q3: "1", q4: "1", q5: "1",
+    q6: "1", q7: "1", q8: "1", q9: "1", q10: "1",
+    q11: "1", q12: "1", q13: "1", q14: "1", q15: "1"
+  };
+
+  for (let i = 1; i <= total; i++) {
+    const selected = document.querySelector(`input[name="q${i}"]:checked`);
+    if (selected && selected.value === correctAnswers[`q${i}`]) {
+      score++;
+    }
+  }
+
+  const percentage = (score / total) * 100;
+  let msg = `Сіз ${score} / ${total} сұраққа дұрыс жауап бердіңіз (${percentage.toFixed(1)}%)`;
+
+  if (percentage >= 80) msg += " — Өте жақсы! 🎉";
+  else if (percentage >= 60) msg += " — Жақсы! 👍";
+  else if (percentage >= 40) msg += " — Орташа. Қайталаңыз. 📚";
+  else msg += " — Төмен. Дәрісті қайта оқыңыз. 📖";
+
+  document.getElementById("quizResult").innerText = msg;
+}
+</script>
+
+</body>
+</html>

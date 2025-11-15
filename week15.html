@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8">
+  <title>15-апта: Әлемнің кванттық өріс бейнесі</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+
+<header class="bg-blue-800 text-white p-6">
+  <h1 class="text-2xl font-bold">15-апта: Әлемнің кванттық өріс бейнесі</h1>
+  <a href="index.html" class="text-yellow-300 hover:underline mt-2 inline-block">← Басты бетке оралу</a>
+</header>
+
+<main class="p-6 max-w-4xl mx-auto">
+
+  <!-- Дәріс мазмұны -->
+  <section class="bg-white p-6 rounded shadow mb-6">
+    <h2 class="text-xl font-semibold mb-4">Дәріс мазмұны</h2>
+    <ul class="list-disc list-inside space-y-2">
+      <li>Кванттық механиканың негізгі ұғымдары: толқындық-бөлшектік дуализм, белгісіздік принципі, суперпозиция</li>
+      <li>Кванттық өріс теориясы: бөлшектер — өрістердің кванттары ретінде</li>
+      <li>Стандартты модель: фундаменталды бөлшектер мен өзара әрекеттесулер</li>
+      <li>Хиггс бозоны — массаның шығу тегін түсіндіреді</li>
+      <li>Кванттық әлем мен классикалық әлемнің арасындағы айырмашылық, олардың философиялық маңызы</li>
+    </ul>
+  </section>
+
+  <!-- Файлдар -->
+  <section class="bg-white p-6 rounded shadow mb-6">
+    <h2 class="text-xl font-semibold mb-4">Қосымша материалдар</h2>
+    <div class="space-y-3">
+      <a href="materials/week15_presentation.pptx" download class="block bg-blue-600 text-white text-center py-2 px-4 rounded hover:bg-blue-700 transition">
+        📥 Презентацияны жүктеп алу (.pptx)
+      </a>
+      <a href="materials/week15_notes.docx" download class="block bg-green-600 text-white text-center py-2 px-4 rounded hover:bg-green-700 transition">
+        📥 Дәріс мәтінін жүктеп алу (.docx)
+      </a>
+    </div>
+    <p class="text-sm text-gray-600 mt-3">* Файлдар <code>materials/</code> бумасында болуы керек.</p>
+  </section>
+
+  <!-- Өздік жұмыс: 15 сұрақ -->
+  <section class="bg-white p-6 rounded shadow">
+    <h2 class="text-xl font-semibold mb-4">Өздік жұмыс: 15 сұрақ</h2>
+    <form id="quizForm" class="space-y-5">
+      
+      <div><p class="font-medium">1. Кванттық механиканың негізгі ерекшелігі:</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q1" value="0"> Абсолютті дәлдік</label>
+          <label class="flex items-center"><input type="radio" name="q1" value="1"> Ықтималдық сипаты</label>
+          <label class="flex items-center"><input type="radio" name="q1" value="0"> Тек макрообъектілерді зерттеу</label>
+          <label class="flex items-center"><input type="radio" name="q1" value="0"> Тек статикалық жүйелер</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">2. Толқындық-бөлшектік дуализм нені білдіреді?</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q2" value="0"> Бөлшектер тек корпускулалық қасиетке ие</label>
+          <label class="flex items-center"><input type="radio" name="q2" value="1"> Бөлшектер толқын ретінде де, бөлшек ретінде де әрекет етеді</label>
+          <label class="flex items-center"><input type="radio" name="q2" value="0"> Тек толқындық қасиетке ие</label>
+          <label class="flex items-center"><input type="radio" name="q2" value="0"> Тек электромагниттік құбылыс</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">3. Гейзенбергтің белгісіздік принципі бойынша:</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q3" value="0"> Бөлшектің орнын дәл білуге болады</label>
+          <label class="flex items-center"><input type="radio" name="q3" value="1"> Бөлшектің орны мен импульсін бір уақытта дәл білуге болмайды</label>
+          <label class="flex items-center"><input type="radio" name="q3" value="0"> Бөлшектің жылдамдығы әрқашан тұрақты</label>
+          <label class="flex items-center"><input type="radio" name="q3" value="0"> Барлық құбылыстар кері айналуға мүмкіндік береді</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">4. Суперпозиция қандай құбылыс?</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q4" value="1"> Бөлшек бір уақытта бірнеше күйде болуы мүмкін</label>
+          <label class="flex items-center"><input type="radio" name="q4" value="0"> Бөлшек тек бір күйде болады</label>
+          <label class="flex items-center"><input type="radio" name="q4" value="0"> Бөлшек әрқашан тыныш күйде болады</label>
+          <label class="flex items-center"><input type="radio" name="q4" value="0"> Бөлшек толығымен көрінбейді</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">5. Кванттық өріс теориясы бойынша бөлшектер не болып табылады?</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q5" value="0"> Тек нүкте секілді нысандар</label>
+          <label class="flex items-center"><input type="radio" name="q5" value="1"> Өрістердің кванттары</label>
+          <label class="flex items-center"><input type="radio" name="q5" value="0"> Тек толқындар</label>
+          <label class="flex items-center"><input type="radio" name="q5" value="0"> Тек классикалық механикалық объектілер</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">6. Стандартты модельде қанша негізгі өзара әрекеттесу бар?</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q6" value="0"> 2</label>
+          <label class="flex items-center"><input type="radio" name="q6" value="0"> 3</label>
+          <label class="flex items-center"><input type="radio" name="q6" value="1"> 4</label>
+          <label class="flex items-center"><input type="radio" name="q6" value="0"> 5</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">7. Хиггс бозоны нені түсіндіреді?</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q7" value="0"> Электр зарядының пайда болуын</label>
+          <label class="flex items-center"><input type="radio" name="q7" value="1"> Массаның шығу тегін</label>
+          <label class="flex items-center"><input type="radio" name="q7" value="0"> Жарық жылдамдығының шегін</label>
+          <label class="flex items-center"><input type="radio" name="q7" value="0"> Уақыттың баяулауын</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">8. Кванттық әлемдегі «өлшеу» процесі нені өзгертеді?</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q8" value="0"> Жүйенің энергиясын</label>
+          <label class="flex items-center"><input type="radio" name="q8" value="1"> Суперпозиция күйін нақты күйге айналдырады</label>
+          <label class="flex items-center"><input type="radio" name="q8" value="0"> Тек бақылаушының пікірін</label>
+          <label class="flex items-center"><input type="radio" name="q8" value="0"> Тек температураны</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">9. Кванттық өріс теориясы қай екі теорияны біріктіреді?</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q9" value="0"> Термодинамика мен электромагнетизмді</label>
+          <label class="flex items-center"><input type="radio" name="q9" value="0"> Классикалық механика мен астрономияны</label>
+          <label class="flex items-center"><input type="radio" name="q9" value="1"> Кванттық механика мен салыстырмалылықты</label>
+          <label class="flex items-center"><input type="radio" name="q9" value="0"> Биология мен химияны</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">10. Кванттық әлемнің философиялық маңызы неде?</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q10" value="0"> Тек математикалық модель</label>
+          <label class="flex items-center"><input type="radio" name="q10" value="1"> Ақиқаттың объективтілігі туралы көзқарасты өзгертеді</label>
+          <label class="flex items-center"><input type="radio" name="q10" value="0"> Тек эксперимент нәтижесі</label>
+          <label class="flex items-center"><input type="radio" name="q10" value="0"> Тек техникалық қолданба</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">11. Кванттық өріс теориясындағы «вакуум» дегеніміз не?</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q11" value="0"> Толығымен бос кеңістік</label>
+          <label class="flex items-center"><input type="radio" name="q11" value="1"> Тұрақты флуктуацияларға ұшырап тұратын энергиялық орта</label>
+          <label class="flex items-center"><input type="radio" name="q11" value="0"> Классикалық тыныштық күй</label>
+          <label class="flex items-center"><input type="radio" name="q11" value="0"> Тек температура нөл болғандағы күй</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">12. Кванттық механика қай ғалымдармен байланысты?</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q12" value="1"> Нильс Бор, Вернер Гейзенберг, Эрвин Шрөдингер</label>
+          <label class="flex items-center"><input type="radio" name="q12" value="0"> Альберт Эйнштейн, Исаак Ньютон</label>
+          <label class="flex items-center"><input type="radio" name="q12" value="0"> Чарльз Дарвин, Грегор Мендель</label>
+          <label class="flex items-center"><input type="radio" name="q12" value="0"> Лев Ландау, Андрей Сахаров</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">13. Кванттық әлем мен классикалық әлемдің шекарасы неде?</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q13" value="0"> Тек уақытта</label>
+          <label class="flex items-center"><input type="radio" name="q13" value="1"> Жүйенің масштабында (микро vs макро)</label>
+          <label class="flex items-center"><input type="radio" name="q13" value="0"> Тек температурада</label>
+          <label class="flex items-center"><input type="radio" name="q13" value="0"> Тек адам санасында</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">14. «Біз – жұлдыздық заттардан тұрамыз» деген тұжырым кванттық әлеммен қалай байланысты?</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q14" value="0"> Тек поэзиялық сөз</label>
+          <label class="flex items-center"><input type="radio" name="q14" value="1"> Біздің денемізде жұлдыздарда түзілген элементтер бар, олар кванттық процестер нәтижесінде пайда болған</label>
+          <label class="flex items-center"><input type="radio" name="q14" value="0"> Адамдар ғарыштан келген</label>
+          <label class="flex items-center"><input type="radio" name="q14" value="0"> Жұлдыздар тіршілік тудырды</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">15. Кванттық өріс бейнесі Әлемді қалай көрсетеді?</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q15" value="0"> Тек бөлшектерден тұратын статикалық әлем</label>
+          <label class="flex items-center"><input type="radio" name="q15" value="1"> Динамикалық, өзара әрекеттесетін өрістердің үздіксіз ағыны</label>
+          <label class="flex items-center"><input type="radio" name="q15" value="0"> Тек гравитациялық күштердің әсерінде</label>
+          <label class="flex items-center"><input type="radio" name="q15" value="0"> Тек ғаламдық кеңею</label>
+        </div>
+      </div>
+
+      <button type="button" onclick="checkQuiz()" class="mt-4 bg-blue-800 text-white px-6 py-3 rounded hover:bg-blue-900 font-semibold w-full">
+        Тесті тексеру
+      </button>
+    </form>
+    <p id="quizResult" class="mt-4 font-semibold text-center text-lg"></p>
+  </section>
+
+</main>
+
+<script>
+function checkQuiz() {
+  let score = 0;
+  const total = 15;
+  const correctAnswers = {
+    q1: "1", q2: "1", q3: "1", q4: "1", q5: "1",
+    q6: "1", q7: "1", q8: "1", q9: "1", q10: "1",
+    q11: "1", q12: "1", q13: "1", q14: "1", q15: "1"
+  };
+
+  for (let i = 1; i <= total; i++) {
+    const selected = document.querySelector(`input[name="q${i}"]:checked`);
+    if (selected && selected.value === correctAnswers[`q${i}`]) {
+      score++;
+    }
+  }
+
+  const percentage = (score / total) * 100;
+  let msg = `Сіз ${score} / ${total} сұраққа дұрыс жауап бердіңіз (${percentage.toFixed(1)}%)`;
+
+  if (percentage >= 80) msg += " — Өте жақсы! 🎉";
+  else if (percentage >= 60) msg += " — Жақсы! 👍";
+  else if (percentage >= 40) msg += " — Орташа. Қайталаңыз. 📚";
+  else msg += " — Төмен. Дәрісті қайта оқыңыз. 📖";
+
+  document.getElementById("quizResult").innerText = msg;
+}
+</script>
+
+</body>
+</html>

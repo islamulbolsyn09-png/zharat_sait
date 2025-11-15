@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8">
+  <title>8-апта: Биологияның физикалық негіздері</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+
+<header class="bg-blue-800 text-white p-6">
+  <h1 class="text-2xl font-bold">8-апта: Биологияның физикалық негіздері</h1>
+  <a href="index.html" class="text-yellow-300 hover:underline mt-2 inline-block">← Басты бетке оралу</a>
+</header>
+
+<main class="p-6 max-w-4xl mx-auto">
+
+  <!-- Дәріс мазмұны -->
+  <section class="bg-white p-6 rounded shadow mb-6">
+    <h2 class="text-xl font-semibold mb-4">Дәріс мазмұны</h2>
+    <ul class="list-disc list-inside space-y-2">
+      <li>Биологияның физикалық негіздері: термодинамика, диффузия, осмос, энергия алмасу</li>
+      <li>Биохимиялық эволюция: Миллер-Урей тәжірибесі, РНҚ әлемі гипотезасы, пребиотикалық суп</li>
+      <li>Эволюцияның синтетикалық теориясы: табиғи сұрыпталу + генетика, популяциялық генетика</li>
+      <li>Генетика негіздері: ДНҚ құрылымы, гендер, мутациялар, Мендель заңдары</li>
+      <li>Тіршіліктің физика-химиялық табиғаты: метаболизм, гомеостаз, ақпараттық жүйе</li>
+    </ul>
+  </section>
+
+  <!-- Файлдар -->
+  <section class="bg-white p-6 rounded shadow mb-6">
+    <h2 class="text-xl font-semibold mb-4">Қосымша материалдар</h2>
+    <div class="space-y-3">
+      <a href="materials/week8_presentation.pptx" download class="block bg-blue-600 text-white text-center py-2 px-4 rounded hover:bg-blue-700 transition">
+        📥 Презентацияны жүктеп алу (.pptx)
+      </a>
+      <a href="materials/week8_notes.docx" download class="block bg-green-600 text-white text-center py-2 px-4 rounded hover:bg-green-700 transition">
+        📥 Дәріс мәтінін жүктеп алу (.docx)
+      </a>
+    </div>
+    <p class="text-sm text-gray-600 mt-3">* Файлдар <code>materials/</code> бумасында болуы керек.</p>
+  </section>
+
+  <!-- Өздік жұмыс: 15 сұрақ -->
+  <section class="bg-white p-6 rounded shadow">
+    <h2 class="text-xl font-semibold mb-4">Өздік жұмыс: 15 сұрақ</h2>
+    <form id="quizForm" class="space-y-5">
+      
+      <div><p class="font-medium">1. Биологияның физикалық негіздеріне жатпайтыны:</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q1" value="0"> Термодинамика</label>
+          <label class="flex items-center"><input type="radio" name="q1" value="0"> Диффузия</label>
+          <label class="flex items-center"><input type="radio" name="q1" value="1"> Витализм</label>
+          <label class="flex items-center"><input type="radio" name="q1" value="0"> Осмос</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">2. Миллер-Урей тәжірибесі не түзілгенін дәлелдеді?</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q2" value="0"> ДНҚ</label>
+          <label class="flex items-center"><input type="radio" name="q2" value="1"> Аминқышқылдары</label>
+          <label class="flex items-center"><input type="radio" name="q2" value="0"> Вирустар</label>
+          <label class="flex items-center"><input type="radio" name="q2" value="0"> Жасушалар</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">3. РНҚ әлемі гипотезасы бойынша алғашқы генетикалық материал не болған?</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q3" value="0"> ДНҚ</label>
+          <label class="flex items-center"><input type="radio" name="q3" value="1"> РНҚ</label>
+          <label class="flex items-center"><input type="radio" name="q3" value="0"> Ақуыздар</label>
+          <label class="flex items-center"><input type="radio" name="q3" value="0"> Липидтер</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">4. Синтетикалық эволюция теориясы нені біріктіреді?</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q4" value="0"> Креационизм мен Дарвинизмді</label>
+          <label class="flex items-center"><input type="radio" name="q4" value="1"> Дарвиндік эволюция мен Мендельдік генетиканы</label>
+          <label class="flex items-center"><input type="radio" name="q4" value="0"> Панспермия мен биохимияны</label>
+          <label class="flex items-center"><input type="radio" name="q4" value="0"> Физика мен химианы</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">5. ДНҚ-ның қос спираль құрылымын кім ашты?</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q5" value="0"> Чарльз Дарвин</label>
+          <label class="flex items-center"><input type="radio" name="q5" value="0"> Грегор Мендель</label>
+          <label class="flex items-center"><input type="radio" name="q5" value="1"> Уотсон мен Крик</label>
+          <label class="flex items-center"><input type="radio" name="q5" value="0"> Людвиг Больцман</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">6. Жасуша мембранасы арқылы заттардың қозғалысы қай заңға негізделген?</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q6" value="0"> Ньютон заңы</label>
+          <label class="flex items-center"><input type="radio" name="q6" value="1"> Фиктің диффузия заңы</label>
+          <label class="flex items-center"><input type="radio" name="q6" value="0"> Хаббл заңы</label>
+          <label class="flex items-center"><input type="radio" name="q6" value="0"> Менделеев заңы</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">7. Энергияның биологиялық түрде тасымалдану формасы:</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q7" value="0"> Глюкоза</label>
+          <label class="flex items-center"><input type="radio" name="q7" value="1"> АТФ</label>
+          <label class="flex items-center"><input type="radio" name="q7" value="0"> ДНҚ</label>
+          <label class="flex items-center"><input type="radio" name="q7" value="0"> Су</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">8. Табиғи сұрыпталу принципін ұсынған ғалым:</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q8" value="1"> Чарльз Дарвин</label>
+          <label class="flex items-center"><input type="radio" name="q8" value="0"> Грегор Мендель</label>
+          <label class="flex items-center"><input type="radio" name="q8" value="0"> Луи Пастер</label>
+          <label class="flex items-center"><input type="radio" name="q8" value="0"> Александр Опарин</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">9. Генетикалық өзгергіштіктің негізгі көзі:</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q9" value="0"> Адаптация</label>
+          <label class="flex items-center"><input type="radio" name="q9" value="1"> Мутация</label>
+          <label class="flex items-center"><input type="radio" name="q9" value="0"> Климат</label>
+          <label class="flex items-center"><input type="radio" name="q9" value="0"> Тұқымқуалаушылық</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">10. Мендельдің бірінші заңы қалай аталады?</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q10" value="1"> Сегрегация заңы</label>
+          <label class="flex items-center"><input type="radio" name="q10" value="0"> Тәуелсіз тұқымқуалау заңы</label>
+          <label class="flex items-center"><input type="radio" name="q10" value="0"> Доминанттылық заңы</label>
+          <label class="flex items-center"><input type="radio" name="q10" value="0"> Гибридтердің біртектілігі заңы</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">11. Фотосинтез кезінде энергия қай түрден қай түрге айналады?</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q11" value="0"> Химиялық → жылулық</label>
+          <label class="flex items-center"><input type="radio" name="q11" value="1"> Жарық → химиялық</label>
+          <label class="flex items-center"><input type="radio" name="q11" value="0"> Механикалық → электрлік</label>
+          <label class="flex items-center"><input type="radio" name="q11" value="0"> Ядролық → жылулық</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">12. Тірі жүйелердің ішкі ортаның тұрақтылығын сақтау қабілеті:</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q12" value="0"> Эволюция</label>
+          <label class="flex items-center"><input type="radio" name="q12" value="1"> Гомеостаз</label>
+          <label class="flex items-center"><input type="radio" name="q12" value="0"> Адаптация</label>
+          <label class="flex items-center"><input type="radio" name="q12" value="0"> Метаболизм</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">13. Протожасушалардың алғашқы қабықшасы неден түзілген?</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q13" value="0"> Ақуыздардан</label>
+          <label class="flex items-center"><input type="radio" name="q13" value="0"> ДНҚ-дан</label>
+          <label class="flex items-center"><input type="radio" name="q13" value="1"> Липидтерден</label>
+          <label class="flex items-center"><input type="radio" name="q13" value="0"> Минералдардан</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">14. Харди-Вайнберг теңдеуі не үшін қолданылады?</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q14" value="0"> ДНҚ секвенциялау үшін</label>
+          <label class="flex items-center"><input type="radio" name="q14" value="1"> Популяциядағы генетикалық тепе-теңдікті анықтау үшін</label>
+          <label class="flex items-center"><input type="radio" name="q14" value="0"> Аминқышқылдарын анықтау үшін</label>
+          <label class="flex items-center"><input type="radio" name="q14" value="0"> Жасуша бөлінуін зерттеу үшін</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">15. «Біз — жұлдыздық заттардан тұрамыз» деген тұжырым нені білдіреді?</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q15" value="0"> Адам денесінде жұлдыздар бар</label>
+          <label class="flex items-center"><input type="radio" name="q15" value="1"> Ауыр элементтер жұлдыздарда түзілген</label>
+          <label class="flex items-center"><input type="radio" name="q15" value="0"> Адамдар ғарыштан келген</label>
+          <label class="flex items-center"><input type="radio" name="q15" value="0"> Жұлдыздар тіршілік тудырды</label>
+        </div>
+      </div>
+
+      <button type="button" onclick="checkQuiz()" class="mt-4 bg-blue-800 text-white px-6 py-3 rounded hover:bg-blue-900 font-semibold w-full">
+        Тесті тексеру
+      </button>
+    </form>
+    <p id="quizResult" class="mt-4 font-semibold text-center text-lg"></p>
+  </section>
+
+</main>
+
+<script>
+function checkQuiz() {
+  let score = 0;
+  const total = 15;
+  const correctAnswers = {
+    q1: "1", q2: "1", q3: "1", q4: "1", q5: "1",
+    q6: "1", q7: "1", q8: "1", q9: "1", q10: "1",
+    q11: "1", q12: "1", q13: "1", q14: "1", q15: "1"
+  };
+
+  for (let i = 1; i <= total; i++) {
+    const selected = document.querySelector(`input[name="q${i}"]:checked`);
+    if (selected && selected.value === correctAnswers[`q${i}`]) {
+      score++;
+    }
+  }
+
+  const percentage = (score / total) * 100;
+  let msg = `Сіз ${score} / ${total} сұраққа дұрыс жауап бердіңіз (${percentage.toFixed(1)}%)`;
+
+  if (percentage >= 80) msg += " — Өте жақсы! 🎉";
+  else if (percentage >= 60) msg += " — Жақсы! 👍";
+  else if (percentage >= 40) msg += " — Орташа. Қайталаңыз. 📚";
+  else msg += " — Төмен. Дәрісті қайта оқыңыз. 📖";
+
+  document.getElementById("quizResult").innerText = msg;
+}
+</script>
+
+</body>
+</html>

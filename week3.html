@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8">
+  <title>3-апта: Ғылыми танымның әдістері</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+
+<header class="bg-blue-800 text-white p-6">
+  <h1 class="text-2xl font-bold">3-апта: Ғылыми танымның әдістері</h1>
+  <a href="index.html" class="text-yellow-300 hover:underline mt-2 inline-block">← Басты бетке оралу</a>
+</header>
+
+<main class="p-6 max-w-4xl mx-auto">
+
+  <!-- Дәріс мазмұны -->
+  <section class="bg-white p-6 rounded shadow mb-6">
+    <h2 class="text-xl font-semibold mb-4">Дәріс мазмұны</h2>
+    <ul class="list-disc list-inside space-y-2">
+      <li>Ғылыми танымның негізгі әдістері: бақылау, эксперимент, салыстыру, анализ және синтез, модельдеу, индукция мен дедукция</li>
+      <li>Математикалық тілдің ғылымдағы рөлі: нақтылық, модельдеу, болжау, статистикалық талдау</li>
+      <li>Оқушылардың танымдық қызығушылығын дамыту үшін мұғалімдерді даярлау модельі (теория, практика, құзыреттілік, бағалау)</li>
+    </ul>
+  </section>
+
+  <!-- Файлдар -->
+  <section class="bg-white p-6 rounded shadow mb-6">
+    <h2 class="text-xl font-semibold mb-4">Қосымша материалдар</h2>
+    <div class="space-y-3">
+      <a href="materials/week3_presentation.pptx" download class="block bg-blue-600 text-white text-center py-2 px-4 rounded hover:bg-blue-700 transition">
+        📥 Презентацияны жүктеп алу (.pptx)
+      </a>
+      <a href="materials/week3_notes.docx" download class="block bg-green-600 text-white text-center py-2 px-4 rounded hover:bg-green-700 transition">
+        📥 Дәріс мәтінін жүктеп алу (.docx)
+      </a>
+    </div>
+    <p class="text-sm text-gray-600 mt-3">* Файлдар <code>materials/</code> бумасында болуы керек.</p>
+  </section>
+
+  <!-- Өздік жұмыс: 15 сұрақ -->
+  <section class="bg-white p-6 rounded shadow">
+    <h2 class="text-xl font-semibold mb-4">Өздік жұмыс: 15 сұрақ</h2>
+    <form id="quizForm" class="space-y-5">
+      
+      <div><p class="font-medium">1. Ғылыми танымның негізгі әдістеріне жатпайтыны:</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q1" value="0"> Бақылау</label>
+          <label class="flex items-center"><input type="radio" name="q1" value="0"> Эксперимент</label>
+          <label class="flex items-center"><input type="radio" name="q1" value="1"> Пікірталас</label>
+          <label class="flex items-center"><input type="radio" name="q1" value="0"> Модельдеу</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">2. Бақылау әдісінің ерекшелігі:</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q2" value="1"> Зерттелетін объектіге тікелей әсер етпейді</label>
+          <label class="flex items-center"><input type="radio" name="q2" value="0"> Жасанды жағдай жасайды</label>
+          <label class="flex items-center"><input type="radio" name="q2" value="0"> Тек математикалық модель құрады</label>
+          <label class="flex items-center"><input type="radio" name="q2" value="0"> Тек сандық деректерді жинайды</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">3. Эксперимент әдісінің негізгі ерекшелігі:</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q3" value="0"> Табиғи жағдайда құбылысты бақылау</label>
+          <label class="flex items-center"><input type="radio" name="q3" value="1"> Жасанды жағдайда құбылысты зерттеу</label>
+          <label class="flex items-center"><input type="radio" name="q3" value="0"> Тек салыстыру жасау</label>
+          <label class="flex items-center"><input type="radio" name="q3" value="0"> Теориялық қорытынды шығару</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">4. Салыстыру әдісінің түрлері:</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q4" value="0"> Жабық және ашық</label>
+          <label class="flex items-center"><input type="radio" name="q4" value="0"> Толық және толық емес</label>
+          <label class="flex items-center"><input type="radio" name="q4" value="1"> Синхрониялық және диахрониялық</label>
+          <label class="flex items-center"><input type="radio" name="q4" value="0"> Физикалық және идеалдық</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">5. Анализ дегеніміз:</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q5" value="1"> Объектінің бөліктерін зерттеу</label>
+          <label class="flex items-center"><input type="radio" name="q5" value="0"> Бөліктерді біріктіру</label>
+          <label class="flex items-center"><input type="radio" name="q5" value="0"> Жалпы қорытынды шығару</label>
+          <label class="flex items-center"><input type="radio" name="q5" value="0"> Математикалық модель құру</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">6. Модельдеу әдісінің түрлеріне жатпайтыны:</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q6" value="0"> Физикалық</label>
+          <label class="flex items-center"><input type="radio" name="q6" value="0"> Математикалық</label>
+          <label class="flex items-center"><input type="radio" name="q6" value="0"> Ақпараттық</label>
+          <label class="flex items-center"><input type="radio" name="q6" value="1"> Эксперименталдық</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">7. Индукция дегеніміз:</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q7" value="1"> Жекеден жалпыға қорытынды шығару</label>
+          <label class="flex items-center"><input type="radio" name="q7" value="0"> Жалпыдан жекеге қорытынды шығару</label>
+          <label class="flex items-center"><input type="radio" name="q7" value="0"> Тек математикалық дәлелдеу</label>
+          <label class="flex items-center"><input type="radio" name="q7" value="0"> Тек эксперимент жүргізу</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">8. Дедукция мысалы:</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q8" value="0"> Барлық өсімдіктерде хлорофилл бар деп қорытындылау</label>
+          <label class="flex items-center"><input type="radio" name="q8" value="1"> "Барлық адамдар өледі", демек "Сократ өледі"</label>
+          <label class="flex items-center"><input type="radio" name="q8" value="0"> Металдар иілгіш екенін бақылау</label>
+          <label class="flex items-center"><input type="radio" name="q8" value="0"> Химиялық реакцияның жылдамдығын өлшеу</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">9. Ғылымда математикалық тілдің негізгі артықшылығы:</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q9" value="0"> Көрнекілік</label>
+          <label class="flex items-center"><input type="radio" name="q9" value="1"> Дәлдік пен объективтілік</label>
+          <label class="flex items-center"><input type="radio" name="q9" value="0"> Түсініктілік</label>
+          <label class="flex items-center"><input type="radio" name="q9" value="0"> Қолжетімділік</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">10. Математикалық модельдеу арқылы не жасауға болады?</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q10" value="0"> Тек сурет салу</label>
+          <label class="flex items-center"><input type="radio" name="q10" value="1"> Болашақтағы құбылыстарды болжау</label>
+          <label class="flex items-center"><input type="radio" name="q10" value="0"> Тек теориялық пікір айту</label>
+          <label class="flex items-center"><input type="radio" name="q10" value="0"> Тек эксперимент жүргізу</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">11. Статистикалық әдістер ғылымда не үшін қолданылады?</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q11" value="1"> Үлкен деректер жиынын талдау</label>
+          <label class="flex items-center"><input type="radio" name="q11" value="0"> Тек формула шығару</label>
+          <label class="flex items-center"><input type="radio" name="q11" value="0"> Тек табиғи құбылыстарды бақылау</label>
+          <label class="flex items-center"><input type="radio" name="q11" value="0"> Тек дәптерге жазу</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">12. Мұғалімдерді даярлау модельінің бірінші компоненті:</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q12" value="1"> Теориялық дайындық</label>
+          <label class="flex items-center"><input type="radio" name="q12" value="0"> Тәжірибе жүргізу</label>
+          <label class="flex items-center"><input type="radio" name="q12" value="0"> Компьютер ойыны</label>
+          <label class="flex items-center"><input type="radio" name="q12" value="0"> Топтау</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">13. Практикалық жаттығуларға жатпайтыны:</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q13" value="0"> Проблемалық оқыту</label>
+          <label class="flex items-center"><input type="radio" name="q13" value="0"> Жобалық жұмыс</label>
+          <label class="flex items-center"><input type="radio" name="q13" value="1"> Жаттау</label>
+          <label class="flex items-center"><input type="radio" name="q13" value="0"> Топтық жұмыс</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">14. Оқушылардың танымдық қызығушылығын бағалау қай компонентке жатады?</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q14" value="0"> Теориялық дайындық</label>
+          <label class="flex items-center"><input type="radio" name="q14" value="0"> Практикалық жаттығулар</label>
+          <label class="flex items-center"><input type="radio" name="q14" value="0"> Кәсіби құзыреттілік</label>
+          <label class="flex items-center"><input type="radio" name="q14" value="1"> Бағалау және кері байланыс</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">15. Ғылыми таным әдістерінің тиімді қолданылуы нені қамтамасыз етеді?</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q15" value="0"> Тек жаттауды</label>
+          <label class="flex items-center"><input type="radio" name="q15" value="1"> Жаңа теориялар мен гипотезалардың пайда болуын</label>
+          <label class="flex items-center"><input type="radio" name="q15" value="0"> Тек тест жазуды</label>
+          <label class="flex items-center"><input type="radio" name="q15" value="0"> Тек сызбалар салуды</label>
+        </div>
+      </div>
+
+      <button type="button" onclick="checkQuiz()" class="mt-4 bg-blue-800 text-white px-6 py-3 rounded hover:bg-blue-900 font-semibold w-full">
+        Тесті тексеру
+      </button>
+    </form>
+    <p id="quizResult" class="mt-4 font-semibold text-center text-lg"></p>
+  </section>
+
+</main>
+
+<script>
+function checkQuiz() {
+  let score = 0;
+  const total = 15;
+  const correctAnswers = {
+    q1: "1", q2: "1", q3: "1", q4: "1", q5: "1",
+    q6: "1", q7: "1", q8: "1", q9: "1", q10: "1",
+    q11: "1", q12: "1", q13: "1", q14: "1", q15: "1"
+  };
+
+  for (let i = 1; i <= total; i++) {
+    const selected = document.querySelector(`input[name="q${i}"]:checked`);
+    if (selected && selected.value === correctAnswers[`q${i}`]) {
+      score++;
+    }
+  }
+
+  const percentage = (score / total) * 100;
+  let msg = `Сіз ${score} / ${total} сұраққа дұрыс жауап бердіңіз (${percentage.toFixed(1)}%)`;
+
+  if (percentage >= 80) msg += " — Өте жақсы! 🎉";
+  else if (percentage >= 60) msg += " — Жақсы! 👍";
+  else if (percentage >= 40) msg += " — Орташа. Қайталаңыз. 📚";
+  else msg += " — Төмен. Дәрісті қайта оқыңыз. 📖";
+
+  document.getElementById("quizResult").innerText = msg;
+}
+</script>
+
+</body>
+</html>

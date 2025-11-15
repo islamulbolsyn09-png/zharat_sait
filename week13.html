@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8">
+  <title>13-апта: Синергетика</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+
+<header class="bg-blue-800 text-white p-6">
+  <h1 class="text-2xl font-bold">13-апта: Синергетика</h1>
+  <a href="index.html" class="text-yellow-300 hover:underline mt-2 inline-block">← Басты бетке оралу</a>
+</header>
+
+<main class="p-6 max-w-4xl mx-auto">
+
+  <!-- Дәріс мазмұны -->
+  <section class="bg-white p-6 rounded shadow mb-6">
+    <h2 class="text-xl font-semibold mb-4">Дәріс мазмұны</h2>
+    <ul class="list-disc list-inside space-y-2">
+      <li>Синергетика — күрделі жүйелердің өздігінен ұйымдасу теориясы</li>
+      <li>Тұйық емес жүйелер, диссипативтік құрылымдар, тәртіпсіздіктен тәртіпке өту</li>
+      <li>И. Пригожиннің еңбектері: энтропия, флуктуациялар, бифуркациялар</li>
+      <li>Синергетиканың биология, экология, педагогика, әлеуметтану салаларында қолданылуы</li>
+      <li>Фракталдар, хаос теориясы, өзін-өзі ұйымдастыру құбылыстары</li>
+    </ul>
+  </section>
+
+  <!-- Файлдар -->
+  <section class="bg-white p-6 rounded shadow mb-6">
+    <h2 class="text-xl font-semibold mb-4">Қосымша материалдар</h2>
+    <div class="space-y-3">
+      <a href="materials/week13_presentation.pptx" download class="block bg-blue-600 text-white text-center py-2 px-4 rounded hover:bg-blue-700 transition">
+        📥 Презентацияны жүктеп алу (.pptx)
+      </a>
+      <a href="materials/week13_notes.docx" download class="block bg-green-600 text-white text-center py-2 px-4 rounded hover:bg-green-700 transition">
+        📥 Дәріс мәтінін жүктеп алу (.docx)
+      </a>
+    </div>
+    <p class="text-sm text-gray-600 mt-3">* Файлдар <code>materials/</code> бумасында болуы керек.</p>
+  </section>
+
+  <!-- Өздік жұмыс: 15 сұрақ -->
+  <section class="bg-white p-6 rounded shadow">
+    <h2 class="text-xl font-semibold mb-4">Өздік жұмыс: 15 сұрақ</h2>
+    <form id="quizForm" class="space-y-5">
+      
+      <div><p class="font-medium">1. Синергетика нені зерттейді?</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q1" value="0"> Тек энергияның сақталуын</label>
+          <label class="flex items-center"><input type="radio" name="q1" value="1"> Күрделі жүйелердің өздігінен ұйымдасуын</label>
+          <label class="flex items-center"><input type="radio" name="q1" value="0"> Тек классикалық механиканы</label>
+          <label class="flex items-center"><input type="radio" name="q1" value="0"> Тек жабық жүйелерді</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">2. Синергетиканың негізін қалаған ғалым:</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q2" value="1"> Илья Пригожин</label>
+          <label class="flex items-center"><input type="radio" name="q2" value="0"> Альберт Эйнштейн</label>
+          <label class="flex items-center"><input type="radio" name="q2" value="0"> Чарльз Дарвин</label>
+          <label class="flex items-center"><input type="radio" name="q2" value="0"> Нильс Бор</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">3. Диссипативтік құрылым дегеніміз не?</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q3" value="0"> Жабық жүйедегі тепе-теңдік</label>
+          <label class="flex items-center"><input type="radio" name="q3" value="1"> Энергия алмасатын ашық жүйедегі тұрақты тәртіп</label>
+          <label class="flex items-center"><input type="radio" name="q3" value="0"> Тек кездейсоқ флуктуация</label>
+          <label class="flex items-center"><input type="radio" name="q3" value="0"> Энтропияның төмендеуі</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">4. Синергетиканың негізгі шарты:</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q4" value="0"> Жүйе тұйық болуы керек</label>
+          <label class="flex items-center"><input type="radio" name="q4" value="1"> Жүйе ашық болуы керек</label>
+          <label class="flex items-center"><input type="radio" name="q4" value="0"> Энтропия төмен болуы керек</label>
+          <label class="flex items-center"><input type="radio" name="q4" value="0"> Флуктуациялар болмауы керек</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">5. Бифуркация дегеніміз не?</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q5" value="0"> Жүйенің тепе-теңдігі</label>
+          <label class="flex items-center"><input type="radio" name="q5" value="1"> Жүйенің даму жолының тармақталу нүктесі</label>
+          <label class="flex items-center"><input type="radio" name="q5" value="0"> Энергияның жойылуы</label>
+          <label class="flex items-center"><input type="radio" name="q5" value="0"> Жүйенің ыдырауы</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">6. «Тәртіпсіздіктен тәртіпке» деген ұстаным кімге тән?</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q6" value="1"> И. Пригожинге</label>
+          <label class="flex items-center"><input type="radio" name="q6" value="0"> А. Эйнштейнге</label>
+          <label class="flex items-center"><input type="radio" name="q6" value="0"> С. Хокингке</label>
+          <label class="flex items-center"><input type="radio" name="q6" value="0"> Н. Борға</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">7. Синергетиканың биологиядағы мысалы:</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q7" value="0"> Тек клетканың құрылысы</label>
+          <label class="flex items-center"><input type="radio" name="q7" value="1"> Эмбрионның дамуы кезіндегі өздігінен ұйымдасу</label>
+          <label class="flex items-center"><input type="radio" name="q7" value="0"> Тек ДНҚ репликациясы</label>
+          <label class="flex items-center"><input type="radio" name="q7" value="0"> Тек фотосинтез</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">8. Фрактал дегеніміз не?</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q8" value="0"> Тек геометриялық фигура</label>
+          <label class="flex items-center"><input type="radio" name="q8" value="1"> Өзін-өзі қайталайтын күрделі құрылым</label>
+          <label class="flex items-center"><input type="radio" name="q8" value="0"> Тек математикалық абстракция</label>
+          <label class="flex items-center"><input type="radio" name="q8" value="0"> Тек кванттық эффект</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">9. Хаос теориясы синергетикамен қалай байланысты?</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q9" value="0"> Хаос — тәртіпсіздіктің соңғы күйі</label>
+          <label class="flex items-center"><input type="radio" name="q9" value="1"> Хаос ішінде жасырын тәртіп болуы мүмкін</label>
+          <label class="flex items-center"><input type="radio" name="q9" value="0"> Хаос пен синергетика бір-біріне қарама-қарсы</label>
+          <label class="flex items-center"><input type="radio" name="q9" value="0"> Хаос тек кездейсоқтық</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">10. Синергетиканың педагогикадағы рөлі:</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q10" value="0"> Тек стандартты сабақ жоспары</label>
+          <label class="flex items-center"><input type="radio" name="q10" value="1"> Оқушылар тобында өздігінен білім құру процесі</label>
+          <label class="flex items-center"><input type="radio" name="q10" value="0"> Тек мұғалімнің басқаруы</label>
+          <label class="flex items-center"><input type="radio" name="q10" value="0"> Тек тест жазу</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">11. Энтропияның синергетикадағы рөлі:</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q11" value="0"> Тек тәртіпсіздіктің өсуі</label>
+          <label class="flex items-center"><input type="radio" name="q11" value="1"> Ашық жүйеде энтропия сыртқа шығарылып, ішкі тәртіп пайда болуы мүмкін</label>
+          <label class="flex items-center"><input type="radio" name="q11" value="0"> Энтропия әрқашан төмендейді</label>
+          <label class="flex items-center"><input type="radio" name="q11" value="0"> Энтропия тек жабық жүйеге қатысты</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">12. «Өзін-өзі ұйымдастыру» қай жүйелерде болады?</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q12" value="0"> Тек жабық жүйелерде</label>
+          <label class="flex items-center"><input type="radio" name="q12" value="1"> Тек ашық, энергия алмасатын жүйелерде</label>
+          <label class="flex items-center"><input type="radio" name="q12" value="0"> Тек механикалық жүйелерде</label>
+          <label class="flex items-center"><input type="radio" name="q12" value="0"> Тек термодинамикалық тепе-тең жүйелерде</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">13. Синергетиканың экологияда қолданылуы:</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q13" value="0"> Тек ластануды өлшеу</label>
+          <label class="flex items-center"><input type="radio" name="q13" value="1"> Экожүйелердің өздігінен тұрақтандыруын түсіндіру</label>
+          <label class="flex items-center"><input type="radio" name="q13" value="0"> Тек түрлерді санау</label>
+          <label class="flex items-center"><input type="radio" name="q13" value="0"> Тек су қорын есептеу</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">14. Синергетикалық көзқарас бойынша, әлеуметтік жүйелерде не болады?</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q14" value="0"> Тек басқару арқылы тәртіп орнатылады</label>
+          <label class="flex items-center"><input type="radio" name="q14" value="1"> Әлеуметтік флуктуациялардан жаңа институттар пайда болуы мүмкін</label>
+          <label class="flex items-center"><input type="radio" name="q14" value="0"> Әлеумет әрқашан тепе-тең</label>
+          <label class="flex items-center"><input type="radio" name="q14" value="0"> Тек экономикалық факторлар әсер етеді</label>
+        </div>
+      </div>
+
+      <div><p class="font-medium">15. Синергетиканың философиялық маңызы:</p>
+        <div class="ml-4 space-y-1 mt-2">
+          <label class="flex items-center"><input type="radio" name="q15" value="0"> Тек техникалық модель</label>
+          <label class="flex items-center"><input type="radio" name="q15" value="1"> Әлемдегі тәртіп пен күрделіліктің пайда болуын түсіндіреді</label>
+          <label class="flex items-center"><input type="radio" name="q15" value="0"> Тек математикалық теория</label>
+          <label class="flex items-center"><input type="radio" name="q15" value="0"> Тек физикалық эксперимент</label>
+        </div>
+      </div>
+
+      <button type="button" onclick="checkQuiz()" class="mt-4 bg-blue-800 text-white px-6 py-3 rounded hover:bg-blue-900 font-semibold w-full">
+        Тесті тексеру
+      </button>
+    </form>
+    <p id="quizResult" class="mt-4 font-semibold text-center text-lg"></p>
+  </section>
+
+</main>
+
+<script>
+function checkQuiz() {
+  let score = 0;
+  const total = 15;
+  const correctAnswers = {
+    q1: "1", q2: "1", q3: "1", q4: "1", q5: "1",
+    q6: "1", q7: "1", q8: "1", q9: "1", q10: "1",
+    q11: "1", q12: "1", q13: "1", q14: "1", q15: "1"
+  };
+
+  for (let i = 1; i <= total; i++) {
+    const selected = document.querySelector(`input[name="q${i}"]:checked`);
+    if (selected && selected.value === correctAnswers[`q${i}`]) {
+      score++;
+    }
+  }
+
+  const percentage = (score / total) * 100;
+  let msg = `Сіз ${score} / ${total} сұраққа дұрыс жауап бердіңіз (${percentage.toFixed(1)}%)`;
+
+  if (percentage >= 80) msg += " — Өте жақсы! 🎉";
+  else if (percentage >= 60) msg += " — Жақсы! 👍";
+  else if (percentage >= 40) msg += " — Орташа. Қайталаңыз. 📚";
+  else msg += " — Төмен. Дәрісті қайта оқыңыз. 📖";
+
+  document.getElementById("quizResult").innerText = msg;
+}
+</script>
+
+</body>
+</html>
